@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 16px;
+}
+body{
+    overflow-x:hidden;
+}
+.bannerimage{
+    height:100vh;
+    background: url("https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu-uai-1600x900.jpg");
+    background-size:cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor:pointer;
+}
+
+
+.card:hover{
+    background-color: rgb(188, 233, 187);
+    border: 2px solid rgb(222, 148, 184);
+}
+
+.bIcon{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid rgb(9, 90, 95);
+}
+
+.card-img-top{
+    height: 40vh;
+}
+.text-differ{
+    text-align: center;
+}
+.card-t{
+    text-align: center;
+    font-size: 3rem;
+}
